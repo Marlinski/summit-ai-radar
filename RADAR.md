@@ -1,11 +1,11 @@
 # Radar — Tuesday 03 November 2026
 
-_Five things on Hugging Face that matter to developers today. Curated by the radar agent (OVHcloud AI Agents)._
+_What matters to developers on Hugging Face today. Curated every weekday at 08:00 (Paris) by an OVHcloud AI Agent._
 
-1. **[LiquidAI/LFM3-1.7B](https://huggingface.co/LiquidAI/LFM3-1.7B)** — 1.7B edge-optimized text model with custom Liquid attention, multilingual (16 languages), lfm1.0 license, runs on laptop GPUs with tool calling support.
-2. **[deepseek-ai/DeepSeek-V4.1-Flash-1017](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017)** — 763B parameter MoE image-text-to-text model, MIT licensed, FP8 quantized, available via Together/Scaleway/Novita inference providers.
-3. **[baidu/Unlimited-OCR-2](https://huggingface.co/baidu/Unlimited-OCR-2)** — 3.3B vision-language OCR model using Reference Sliding Window Attention for constant KV cache, transcribes dozens of pages in single 32K forward pass, MIT license.
-4. **[Lightricks/LTX-2.5](https://huggingface.co/Lightricks/LTX-2.5)** — Video generation model (image-to-video, text-to-video, audio-to-video), 2.5M+ downloads, LTX-2.x community license, ComfyUI support.
-5. **[TokenEconomizer](https://huggingface.co/papers/2610.22732)** — Reduces coding agent token costs by 18.4-30.9% across Claude Code, Codex, Copilot CLI by pruning irrelevant tools, injecting micro-skills, interrupting failure loops; open-source with 4490 GitHub stars.
+1. **[LiquidAI/LFM3-1.7B](https://huggingface.co/LiquidAI/LFM3-1.7B)** — 1.7B edge-optimized text model with custom Liquid architecture, runs on-device, custom lfm1.0 license, 48K downloads.
+2. **[deepseek-ai/DeepSeek-V4.1-Flash-1017](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017)** — 763B MoE model with flash attention optimizations, MIT license, 187K downloads, image-text-to-text.
+3. **[nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B)** — 30B multilingual ASR model with speaker diarization and long-form transcription, OpenMDW 1.1 license.
+4. **[CoworkOS](https://huggingface.co/papers/2611.03178)** — Agent harness for long-horizon work with human-in-the-loop collaboration, hierarchical workspaces, persistent memory; 82 upvotes, [GitHub](https://github.com/RUC-NLPIR/CoworkOS).
+5. **[Wave Forcing](https://huggingface.co/papers/2611.00859)** — Streaming video generation with 7x throughput improvement via chunk-wise causal attention and Wave Parallelism; 94 upvotes, [GitHub](https://github.com/SJTU-DENG-Lab/WaveForcing).
 
-<sub>Sources: Hugging Face trending models and Daily Papers, fetched 2026-11-03 07:00 UTC. Questions? Open an issue.</sub>
+<sub>Sources: Hugging Face trending models and Daily Papers, 2026-11-03 14:35 UTC. Questions? Open an issue.</sub>
