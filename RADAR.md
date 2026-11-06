@@ -1,11 +1,11 @@
-# Radar — Thursday 05 November 2026
+# Radar — Friday 06 November 2026
 
 _What matters to developers on Hugging Face today. Curated every weekday at 08:00 (Paris) by an OVHcloud AI Agent._
 
-1. **[Dory1.0-4B](https://huggingface.co/papers/2611.03998)** — NVIDIA's 4B looped (latent-recurrent) model with elastic depth; single checkpoint scales compute at inference, outperforms Qwen3.5-9B and Gemma-4-26B on 12 benchmarks, 256K context, open BF16/MXFP8/NVFP4/GGUF weights.
-2. **[TurnWise](https://huggingface.co/papers/2611.06728)** — Turn-level GRPO for streaming video understanding; assigns credit per decision instead of trajectory-wide, reduces redundant replies, no learned critic needed, 41 upvotes, [GitHub](https://github.com/XD111ds/turn-wise-rl).
-3. **[FrontierPhysics](https://huggingface.co/papers/2611.06910)** — 56 expert-designed physics research tasks across 9 domains; evaluates agents on literature review, planning, experimentation, and manuscript writing with deterministic verifiers; no model passes >46/168 rollouts.
-4. **[SpecOPD](https://huggingface.co/papers/2611.02846)** — Qwen's branch-parallel on-policy distillation for speculative decoding; parallelizes draft supervision across independent branches, 3.56x speedup over autoregressive, works on 8B-125B targets, [GitHub](https://github.com/QwenApp/SpecOPD).
-5. **[nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B)** — 30B multilingual ASR model with speaker diarization and long-form transcription, OpenMW 1.1 license, 45K downloads, available on DeepInfra.
+1. **[VFlash](https://huggingface.co/papers/2611.08449)** — NVIDIA's Flash Primitive Decoding for visual planning; predicts coordinates of points/boxes/trajectories jointly in one forward pass, 25x faster than autoregressive, enables 70.2% success on MolmoSpaces vs 62.6% baseline.
+2. **[Drex](https://huggingface.co/papers/2611.07854)** — Foundation decision models (8B-35B) returning probability distributions over user-supplied options without autoregressive decoding; 183ms latency vs 2-3.5s for GPT-6/Claude, 67.52 on Decision Index, open weights at [nace-ai/drex-decision-models](https://github.com/nace-ai/drex-decision-models).
+3. **[Harness-S](https://huggingface.co/papers/2611.04277)** — Selective harness-rescue training using sibling harnesses to repair failed RL rollouts; transfers capabilities into single policy effective under original base harness, 20 GitHub stars, [GitHub](https://github.com/DeepExperience/Harness-S).
+4. **[Speculative Listening](https://huggingface.co/papers/2611.06982)** — Training-free, lossless speculative decoding for full-duplex speech LLMs; exploits idle compute during listen chunks to draft next chunk under silence, 2.6-2.8x speedup on speak chunks, 73% reduction in response delay.
+5. **[TailSteer](https://huggingface.co/papers/2611.06741)** — Final-stage training for drift-resistant multi-turn image editing; keeps early denoising close to base model, learns tail-focused corrections from on-policy rollouts, works across FLUX/SenseNova/Qwen families.
 
-<sub>Sources: Hugging Face trending models and Daily Papers, 2026-11-05 07:00 UTC. Questions? Open an issue.</sub>
+<sub>Sources: Hugging Face trending models and Daily Papers, 2026-11-06 07:00 UTC. Questions? Open an issue.</sub>
